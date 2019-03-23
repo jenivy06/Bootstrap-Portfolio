@@ -30,7 +30,7 @@
 
 .wrapperindex {
     width: 960px;
-    height: 500px;
+    height: 100%;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 20px;
@@ -80,6 +80,14 @@
     font-size: 40px;
 }
 
+#card {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
 #container {
     min-height: calc(100vh - 264px);
 }
@@ -126,7 +134,7 @@
 
 .bodycopy {
     float: right;
-    padding-left: 35px;
+    padding-left: 15px;
     padding-right: 28px;
     padding-bottom: 200px;
     bottom: 900px;
